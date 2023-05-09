@@ -1,5 +1,5 @@
 import EmailIcon from "@mui/icons-material/Email";
-import LazyLoad from 'react-lazy-load';
+import LazyLoad from "react-lazy-load";
 import { MailTo } from "./MailTo";
 
 type Props = {
@@ -14,14 +14,9 @@ export const Info = (props: Props) => {
   const { name, label, knowMoreLink, mail, linkedin } = props;
   return (
     <>
-    <LazyLoad height={350}>
-      <img
-        src="./images/profile.JPG"
-        alt="プロフィール画像"
-        height="350px"
-        width="100%"
-      />
-    </LazyLoad>
+      <LazyLoad height={300}>
+        <img src="./images/profile.JPG" alt="プロフィール画像" />
+      </LazyLoad>
       <section className="section-info">
         <h2 className="name">{name}</h2>
         <p className="stack">{label}</p>

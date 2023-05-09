@@ -28,6 +28,8 @@ const App = () => {
           <Footer
             twitterLink="https://twitter.com/kitune_yk"
             githubLink="https://github.com/yk-mt12"
+            instagramLink="#"
+            linkedinLink="https://www.linkedin.com/in/kitune1247/"
           />
         </section>
       </main>

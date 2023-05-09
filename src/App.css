@@ -64,6 +64,9 @@ img,
 picutre {
   max-width: 100%;
   display: block;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
 
 
@@ -122,6 +125,10 @@ li {
 
 .section-info a {
   color: hsla(0, 0%, 96%, 1);
+}
+
+.section-info a:hover {
+  color: rgb(42, 170, 255);
 }
 
 .section-info small a {
