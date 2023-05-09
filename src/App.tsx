@@ -14,7 +14,7 @@ const App = () => {
             label="あまてく 代表"
             knowMoreLink="https://kitsune-blog.tokyo/about"
             mail="kitsune1247@gmail.com"
-            linkedin="https://www.linkedin.com/in/kitune1247/"
+            twitterLink="https://twitter.com/kitune_yk"
           />
           <About
             aboutText="京都産業大学4年生. Webフロントエンドエンジニア. UI/UXデザインに興味があります. 本日はよろしくお願いします！
