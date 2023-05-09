@@ -6,6 +6,7 @@ import { About } from "./components/About";
 import { Info } from "./components/Info";
 import "./App.css";
 import { AmatechInfo } from "./components/AmatechInfo";
+import { Events } from "./components/Events";
 
 const App = () => {
   const [isFlip, setIsFlip] = useState(false);
@@ -29,17 +30,11 @@ const App = () => {
                 twitterLink="https://twitter.com/kitsune_yk"
               />
               <About
-                isFlip={isFlip}
                 aboutText="京都産業大学4年生. Webフロントエンドエンジニア. UI/UXデザインに興味があります. 本日はよろしくお願いします！
             "
               />
               <Interest
-                isFlip={isFlip}
-                interestText="
-          Webフロントエンド. UI/UX. SNSマーケティング.
-          Next.js. React. React Native. TypeScript. Tailwind CSS. Firebase.
-          スプラ. アニメ. 映画. カメラ. フットサル. ドリップコーヒー.
-          "
+                interestText="Webフロントエンド. UI/UX. SNSマーケティング. Next.js. React. React Native. TypeScript. Tailwind CSS. Firebase. スプラ. アニメ. 映画. カメラ. フットサル. ドリップコーヒー."
               />
               <Footer
                 isFlip={isFlip}
@@ -57,16 +52,15 @@ const App = () => {
               <AmatechInfo
                 name="あまてく"
                 label="エンジニアコミュニティ"
-                knowMoreLink="https://kitsune-blog.tokyo/about"
-                mail="kitsune1247@gmail.com"
-                twitterLink="https://twitter.com/kitsune_yk"
+                knowMoreLink="https://amatech1006.notion.site/amatech1006/9728f0790eb44f4794b8fe531fbde9c7"
+                mail="amatech1006@gmail.com"
+                twitterLink="https://twitter.com/amatech1006"
               />
               <About
-                isFlip={isFlip}
-                aboutText="京都産業大学4年生. Webフロントエンドエンジニア. UI/UXデザインに興味があります. 本日はよろしくお願いします！
-            "
+                aboutText={`2022年10月に設立. 現在100名弱が在籍.
+                京都産業大学の学生を中心としたエンジニアコミュニティです. 勉強会やイベント企画, ゲスト登壇, ハッカソンなどエンジニアを目指す学生のための活動を行っています.`}
               />
-              <Interest isFlip={isFlip} interestText="" />
+              <Events />
               <Footer
                 isFlip={isFlip}
                 twitterLink="https://twitter.com/kitsune_yk"

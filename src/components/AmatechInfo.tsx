@@ -17,7 +17,7 @@ export const AmatechInfo = (props: Props) => {
   return (
     <>
       <div className="amatech__logo">
-        <Avatar alt="あまてくのロゴ" src="./images/logo.png" sx={{ width: "50%", height: "auto" }} />
+        <Avatar alt="あまてくのロゴ" src="./images/logo.png" sx={{ width: "50%", height: "auto", bgcolor: "white" }}  />
       </div>
       <section className="section-info">
         <h2 className="name">{name}</h2>

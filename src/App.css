@@ -222,11 +222,72 @@ li + li {
   margin-left: 1.5em;
 }
 
-
 /* あまてくinfo */
 .amatech__logo {
   margin-top: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  }
+}
+
+/* イベント情報 */
+.section_events {
+  max-width: 19.8125rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0px 0px 10px 10px;
+  padding: 1em 2.25em;
+}
+
+.event-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  overflow-x: scroll;
+}
+
+.section__events__card {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  list-style: none;
+}
+
+.section__events__card .MuiCard-root {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  margin-right: 16px;
+  max-width: 300px;
+  min-width: 200px;
+  flex: 0 0 auto;
+  display: inline-flex;
+}
+
+.section__events__card .MuiCard-root:hover {
+  transform: scale(1.03);
+  box-shadow: 0 16px 24px rgba(0, 0, 0, 0.2);
+}
+
+.section__events__card .MuiCardContent-root {
+  padding: 16px;
+}
+
+.section__events__card .MuiTypography-gutterBottom {
+  color: #888;
+}
+
+.section__events__card .MuiTypography-h5 {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.section__events__card .MuiTypography-body2 {
+  font-size: 1rem;
+}
+
+.section__events__card .MuiCardActions-root {
+  padding: 16px;
+  display: flex;
+  justify-content: flex-end;
+}

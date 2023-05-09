@@ -1,9 +1,8 @@
 type Props = {
-  isFlip: boolean;
   aboutText: string;
 };
 
-export const About = ({ isFlip, aboutText }: Props) => {
+export const About = ({ aboutText }: Props) => {
   return (
     <>
       <section className="section_about">
