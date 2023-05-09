@@ -17,9 +17,7 @@ const App = () => {
             linkedin="https://www.linkedin.com/in/kitune1247/"
           />
           <About
-            aboutText="こんにちは！あまてくです！
-            あまてくは、Webサイト制作を中心に活動しているフリーランスです。
-            あまてくは、Webサイト制作を中心に活動しているフリーランスです。
+            aboutText="京都産業大学4年生. Webフロントエンドエンジニア. UI/UXデザインに興味があります. 本日はよろしくお願いします！
             "
           />
           <Interest interestText="
