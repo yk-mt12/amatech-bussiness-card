@@ -14,7 +14,7 @@ const App = () => {
             label="あまてく 代表"
             knowMoreLink="https://kitsune-blog.tokyo/about"
             mail="kitsune1247@gmail.com"
-            twitterLink="https://twitter.com/kitune_yk"
+            twitterLink="https://twitter.com/kitsune_yk"
           />
           <About
             aboutText="京都産業大学4年生. Webフロントエンドエンジニア. UI/UXデザインに興味があります. 本日はよろしくお願いします！
@@ -26,7 +26,7 @@ const App = () => {
           スプラ. アニメ. 映画. カメラ. フットサル. ドリップコーヒー.
           " />
           <Footer
-            twitterLink="https://twitter.com/kitune_yk"
+            twitterLink="https://twitter.com/kitsune_yk"
             githubLink="https://github.com/yk-mt12"
             instagramLink="#"
             linkedinLink="https://www.linkedin.com/in/kitune1247/"
