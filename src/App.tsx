@@ -22,7 +22,11 @@ const App = () => {
             あまてくは、Webサイト制作を中心に活動しているフリーランスです。
             "
           />
-          <Interest interestText="" />
+          <Interest interestText="
+          Webフロントエンド. UI/UX. SNSマーケティング.
+          Next.js. React. React Native. TypeScript. Tailwind CSS. Firebase.
+          スプラ. アニメ. 映画. カメラ. フットサル. ドリップコーヒー.
+          " />
           <Footer
             twitterLink="https://twitter.com/kitune_yk"
             githubLink="https://github.com/yk-mt12"

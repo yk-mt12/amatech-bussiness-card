@@ -4,6 +4,7 @@ type Props = {
   email: string;
   subject?: string;
   body?: string;
+  className?: string;
   children: React.ReactNode;
 };
 export const MailTo = ({ email, subject = "", body = "", children }: Props) => {
