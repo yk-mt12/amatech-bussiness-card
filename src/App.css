@@ -243,16 +243,18 @@ li + li {
   display: flex;
   justify-content: center;
   border-radius: 10px;
-  overflow-x: auto !important;
+  overflow-x: auto;
   scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
   list-style: none;
 }
 
 .section__events__card {
   display: flex;
   flex-wrap: nowrap;
-  overflow-x: auto !important;
+  overflow-x: auto;
   scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
   list-style: none;
 }
 
