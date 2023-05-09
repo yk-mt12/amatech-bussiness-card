@@ -61,10 +61,10 @@ const App = () => {
               />
               <Events />
               <Footer
-                twitterLink="https://twitter.com/kitsune_yk"
-                githubLink="https://github.com/yk-mt12"
+                twitterLink="https://twitter.com/amatech1006"
+                githubLink="https://github.com/amatech-repo"
                 instagramLink="#"
-                linkedinLink="https://www.linkedin.com/in/kitune1247/"
+                linkedinLink="#"
               />
             </section>
           </div>
