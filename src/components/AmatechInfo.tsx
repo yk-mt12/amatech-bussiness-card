@@ -1,5 +1,5 @@
 import EmailIcon from "@mui/icons-material/Email";
-import LazyLoad from "react-lazy-load";
+// import LazyLoad from "react-lazy-load";
 import { MailTo } from "./MailTo";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import { Avatar } from "@mui/material";

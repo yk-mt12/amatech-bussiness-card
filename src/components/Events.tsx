@@ -1,4 +1,4 @@
-import { Button, Card, CardActionArea, CardActions, CardContent, Typography } from "@mui/material";
+import { Card, CardActionArea, CardContent, Typography } from "@mui/material";
 
 const eventsData = [
   {

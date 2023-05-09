@@ -1,12 +1,11 @@
 type Props = {
-  isFlip: boolean;
   githubLink?: string;
   twitterLink?: string;
   instagramLink?: string;
   linkedinLink?: string;
 };
 
-export const Footer = ({ isFlip, githubLink, twitterLink, instagramLink, linkedinLink }: Props) => {
+export const Footer = ({  githubLink, twitterLink, instagramLink, linkedinLink }: Props) => {
   return (
     <>
       <footer className="section_footer">

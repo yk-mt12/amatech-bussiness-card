@@ -37,7 +37,6 @@ const App = () => {
                 interestText="Webフロントエンド. UI/UX. SNSマーケティング. Next.js. React. React Native. TypeScript. Tailwind CSS. Firebase. スプラ. アニメ. 映画. カメラ. フットサル. ドリップコーヒー."
               />
               <Footer
-                isFlip={isFlip}
                 twitterLink="https://twitter.com/kitsune_yk"
                 githubLink="https://github.com/yk-mt12"
                 instagramLink="#"
@@ -62,7 +61,6 @@ const App = () => {
               />
               <Events />
               <Footer
-                isFlip={isFlip}
                 twitterLink="https://twitter.com/kitsune_yk"
                 githubLink="https://github.com/yk-mt12"
                 instagramLink="#"
