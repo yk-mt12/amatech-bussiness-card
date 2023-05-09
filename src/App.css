@@ -6,6 +6,7 @@
   --clr-footer-dark: 231 7% 9%;
   --clr-off-white: 0 0% 86%;
   --clr-stack: 25 79% 78%;
+  --back-body: #fff;
 
   /* font-sizes */
   --fs-700: 1.5625rem;
@@ -220,3 +221,12 @@ li {
 li + li {
   margin-left: 1.5em;
 }
+
+
+/* あまてくinfo */
+.amatech__logo {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }

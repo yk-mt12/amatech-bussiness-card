@@ -5,6 +5,7 @@ import { Interest } from "./components/Interest";
 import { About } from "./components/About";
 import { Info } from "./components/Info";
 import "./App.css";
+import { AmatechInfo } from "./components/AmatechInfo";
 
 const App = () => {
   const [isFlip, setIsFlip] = useState(false);
@@ -28,10 +29,12 @@ const App = () => {
                 twitterLink="https://twitter.com/kitsune_yk"
               />
               <About
+                isFlip={isFlip}
                 aboutText="京都産業大学4年生. Webフロントエンドエンジニア. UI/UXデザインに興味があります. 本日はよろしくお願いします！
             "
               />
               <Interest
+                isFlip={isFlip}
                 interestText="
           Webフロントエンド. UI/UX. SNSマーケティング.
           Next.js. React. React Native. TypeScript. Tailwind CSS. Firebase.
@@ -39,6 +42,7 @@ const App = () => {
           "
               />
               <Footer
+                isFlip={isFlip}
                 twitterLink="https://twitter.com/kitsune_yk"
                 githubLink="https://github.com/yk-mt12"
                 instagramLink="#"
@@ -50,19 +54,21 @@ const App = () => {
           {/* あまてくの名刺 */}
           <div className="back" onClick={() => handleClick()}>
             <section className="main__section">
-              <Info
-                name="Yuki Matsuishi"
-                label="あまてく 代表"
+              <AmatechInfo
+                name="あまてく"
+                label="エンジニアコミュニティ"
                 knowMoreLink="https://kitsune-blog.tokyo/about"
                 mail="kitsune1247@gmail.com"
                 twitterLink="https://twitter.com/kitsune_yk"
               />
               <About
+                isFlip={isFlip}
                 aboutText="京都産業大学4年生. Webフロントエンドエンジニア. UI/UXデザインに興味があります. 本日はよろしくお願いします！
             "
               />
-              <Interest interestText="" />
+              <Interest isFlip={isFlip} interestText="" />
               <Footer
+                isFlip={isFlip}
                 twitterLink="https://twitter.com/kitsune_yk"
                 githubLink="https://github.com/yk-mt12"
                 instagramLink="#"
