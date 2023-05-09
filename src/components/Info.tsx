@@ -16,7 +16,7 @@ export const Info = (props: Props) => {
     <>
     <LazyLoad height={350}>
       <img
-        src="public/images/profile.JPG"
+        src="./images/profile.JPG"
         alt="プロフィール画像"
         height="350px"
         width="100%"
