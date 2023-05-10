@@ -48,7 +48,7 @@ export const Events = () => {
             </>
           ))}
           <p className="event-more-card">
-            <a href="https://amatech1006.notion.site/amatech1006/9728f0790eb44f4794b8fe531fbde9c7">もっと見る</a>
+            <a href="https://amatech1006.notion.site/amatech1006/9728f0790eb44f4794b8fe531fbde9c7" target="_" rel="noopener noreferrer">もっと見る</a>
           </p>
         </div>
       </div>
