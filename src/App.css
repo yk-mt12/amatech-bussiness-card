@@ -259,10 +259,6 @@ li + li {
   border-radius: 10px;
   margin-bottom: 1em;
   padding: 1.2em;
-}
-
-.event-card {
-  color: hsla(var(--clr-info-dark) / 1);
   font-weight: 700;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
@@ -272,16 +268,26 @@ li + li {
   transform: scale(1.05);
 }
 
+.event-card__link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+
+.event-card__icon {
+  margin-right: 1.5em;
+}
 .event-card__title {
   color: #333;
-  font-size: 0.8rem;
+  font-size: var(--fs-400);
   margin-bottom: 0.5em;
 }
 
 .event-card__date {
   color: hsla(var(--clr-info-dark) / 1);
-  opacity: 0.8;
-  font-size: 0.5rem;
+  opacity: 0.6;
+  font-size: 0.4rem;
   margin-bottom: 0.5em;
 }
 
