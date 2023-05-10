@@ -35,7 +35,7 @@ export const Events = () => {
           {eventsData.map((event) => (
             <>
               <div className="event-card" key={event.id}>
-                <a href={event.link} className="event-card__link">
+                <a href={event.link} className="event-card__link" target="_" rel="noopener noreferrer">
                   <div className="event-card__icon">
                     <event.icon style={{ color: "black" }} />
                   </div>
