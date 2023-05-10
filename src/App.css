@@ -123,12 +123,14 @@ li {
   color: hsla(0, 0%, 96%, 1);
 }
 
-.section-info a:hover {
-  color: rgb(42, 170, 255);
-}
-
 .section-info small a {
   font-size: 0.64rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.section-info small a:hover {
+  color: rgb(42, 170, 255);
+  transform: scale(1.05);
 }
 
 .contact {
@@ -292,14 +294,14 @@ li + li {
   padding: 1.5em;
 }
 
-.event-more-card a{
+.event-more-card a {
   color: #fff;
   font-weight: 700;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
 }
 
-.event-more-card a:hover{
+.event-more-card a:hover {
   transform: scale(1.05);
   color: #1da1f2;
 }
