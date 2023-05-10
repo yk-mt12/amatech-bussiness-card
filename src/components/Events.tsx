@@ -1,4 +1,4 @@
-import { Card, CardActionArea, CardContent, Typography } from "@mui/material";
+import { Card, CardActionArea, CardContent, Link, Typography } from "@mui/material";
 
 const eventsData = [
   {
@@ -39,6 +39,11 @@ export const Events = () => {
                   </Typography>
                 </CardContent>
               </CardActionArea>
+              <CardContent sx={{ textAlign: "right"}}>
+                <Link href={event.link} target="_blank">
+                  もっと見る
+                </Link>
+              </CardContent>
             </Card>
           ))}
         </div>
