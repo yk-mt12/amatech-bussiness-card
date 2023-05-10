@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import ReactCardFlip from "react-card-flip";
+import * as THREE from "three";
 import { Footer } from "./components/Footer";
 import { Interest } from "./components/Interest";
 import { About } from "./components/About";
@@ -11,6 +12,25 @@ import { Hobby } from "./components/Hobby";
 
 const App = () => {
   const [isFlip, setIsFlip] = useState(false);
+  const containerRef = useRef(null);
+  const [renderer, setRenderer] = useState(null);
+  const scene = useRef(null);
+  const camera = useRef(null);
+
+  useEffect(() => {
+    setRenderer(new THREE.WebGLRenderer());
+    scene.current = new THREE.Scene();
+    camera.current = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
+
+    containerRef.current.appendChild(renderer.domElement);
+
+    const animate = () => {
+      renderer.render(scene.current, camera.current);
+      requestAnimationFrame(animate);
+    };
+
+    animate();
+  }, [renderer]);
 
   const handleClick = () => {
     setIsFlip(!isFlip);
@@ -18,6 +38,7 @@ const App = () => {
 
   return (
     <>
+      <div ref={containerRef}></div>
       <main className="main">
         <ReactCardFlip isFlipped={isFlip} flipDirection="horizontal">
           {/* 個人の名刺 */}

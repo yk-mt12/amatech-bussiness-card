@@ -3,6 +3,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import { MailTo } from "./MailTo";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import { Avatar } from "@mui/material";
+import Scene from "./Scene";
 
 type Props = {
   name: string;
@@ -17,8 +18,9 @@ export const AmatechInfo = (props: Props) => {
   return (
     <>
       <div className="amatech__logo">
-        <Avatar alt="あまてくのロゴ" src="./images/logo.png" sx={{ width: "50%", height: "auto", bgcolor: "white" }}  />
+        <Avatar alt="あまてくのロゴ" src="./images/logo.png" sx={{ width: "50%", height: "auto", bgcolor: "white" }} />
       </div>
+      <Scene />
       <section className="section-info">
         <h2 className="name">{name}</h2>
         <p className="stack">{label}</p>
