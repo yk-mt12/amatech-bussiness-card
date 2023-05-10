@@ -1,5 +1,3 @@
-import { Card, CardActionArea, CardContent, Typography } from "@mui/material";
-
 const eventsData = [
   {
     id: 1,
@@ -28,19 +26,18 @@ export const Events = () => {
       <div className="event-container">
         <div className="section__events__card">
           {eventsData.map((event) => (
-            <Card key={event.id} sx={{ maxWidth: 275, mx: 1, my: 2 }}>
-              <CardActionArea href={event.link} target="_blank">
-                <CardContent>
-                  <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                    {event.date}
-                  </Typography>
-                  <Typography variant="h5" component="h2">
-                    {event.title}
-                  </Typography>
-                </CardContent>
-              </CardActionArea>
-            </Card>
+            <div className="event-card" key={event.id}>
+              <a href={event.link} className="event-card__link">
+                <div className="event-card__title">{event.title}</div>
+                <div className="event-card__date">{event.date}</div>
+              </a>
+            </div>
           ))}
+          <p className="event-more-card">
+            <a href="#">
+              もっと見る <i className="fas fa-chevron-right"></i>
+            </a>
+          </p>
         </div>
       </div>
     </section>

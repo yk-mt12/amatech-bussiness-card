@@ -240,59 +240,66 @@ li + li {
 }
 
 .event-container {
-  display: flex;
-  justify-content: center;
   border-radius: 10px;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
   list-style: none;
 }
 
 .section__events__card {
-  display: flex;
   flex-wrap: nowrap;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
   list-style: none;
 }
 
-.section__events__card .MuiCard-root {
+.event-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #fff;
   border-radius: 10px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-  margin-right: 16px;
-  max-width: 300px;
-  min-width: 200px;
-  flex: 0 0 auto;
-  display: inline-flex;
+  margin-bottom: 1em;
+  padding: 1.2em;
 }
 
-.section__events__card .MuiCard-root:hover {
-  transform: scale(1.03);
-  box-shadow: 0 16px 24px rgba(0, 0, 0, 0.2);
+.event-card {
+  color: hsla(var(--clr-info-dark) / 1);
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
 }
 
-.section__events__card .MuiCardContent-root {
-  padding: 16px;
+.event-card:hover {
+  transform: scale(1.05);
 }
 
-.section__events__card .MuiTypography-gutterBottom {
-  color: #888;
+.event-card__title {
+  color: #333;
+  font-size: 0.8rem;
+  margin-bottom: 0.5em;
 }
 
-.section__events__card .MuiTypography-h5 {
-  font-size: 1.25rem;
-  margin-bottom: 0.75rem;
+.event-card__date {
+  color: hsla(var(--clr-info-dark) / 1);
+  opacity: 0.8;
+  font-size: 0.5rem;
+  margin-bottom: 0.5em;
 }
 
-.section__events__card .MuiTypography-body2 {
-  font-size: 1rem;
-}
-
-.section__events__card .MuiCardActions-root {
-  padding: 16px;
+.event-more-card {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 1em;
+  padding: 1.5em;
+}
+
+.event-more-card a{
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.event-more-card a:hover{
+  transform: scale(1.05);
+  color: #1da1f2;
 }
