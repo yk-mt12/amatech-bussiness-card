@@ -13,7 +13,6 @@ import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 const App = () => {
   const [isFlip, setIsFlip] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
-  const [typedText, setTypedText] = useState("");
 
   const handleClick = () => {
     setIsFlip(!isFlip);
