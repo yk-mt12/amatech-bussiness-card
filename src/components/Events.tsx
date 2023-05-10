@@ -35,7 +35,7 @@ export const Events = () => {
           ))}
           <p className="event-more-card">
             <a href="#">
-              もっと見る <i className="fas fa-chevron-right"></i>
+              もっと見る
             </a>
           </p>
         </div>
