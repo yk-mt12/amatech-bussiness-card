@@ -7,6 +7,7 @@ import { Info } from "./components/Info";
 import "./App.css";
 import { AmatechInfo } from "./components/AmatechInfo";
 import { Events } from "./components/Events";
+import { Hobby } from "./components/Hobby";
 
 const App = () => {
   const [isFlip, setIsFlip] = useState(false);
@@ -33,9 +34,8 @@ const App = () => {
                 aboutText="京都産業大学4年生. Webフロントエンドエンジニア. UI/UXデザインに興味があります. 本日はよろしくお願いします！
             "
               />
-              <Interest
-                interestText="Webフロントエンド. UI/UX. SNSマーケティング. Next.js. React. React Native. TypeScript. Tailwind CSS. Firebase. スプラ. アニメ. 映画. カメラ. フットサル. ドリップコーヒー."
-              />
+              <Hobby hobbyText="スプラ. アニメ. 映画. カメラ. フットサル. ドリップコーヒー." />
+              <Interest interestText="Webフロントエンド. UI/UX. SNSマーケティング. Next.js. React. React Native. TypeScript. Tailwind CSS. Firebase. " />
               <Footer
                 twitterLink="https://twitter.com/kitsune_yk"
                 githubLink="https://github.com/yk-mt12"

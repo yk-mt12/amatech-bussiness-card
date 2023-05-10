@@ -173,7 +173,7 @@ li {
 }
 
 .section_interest {
-  margin-top: 1.6875em;
+  /* margin-top: 1.6875em; */
 }
 
 .about,
@@ -186,7 +186,8 @@ li {
 }
 
 .about__text,
-.interest__text {
+.interest__text,
+.hobby__text {
   color: hsla(0, 0%, 86%, 1);
   font-size: var(--fs-400);
   max-width: 247px;
