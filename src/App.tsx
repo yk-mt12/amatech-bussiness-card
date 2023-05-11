@@ -8,37 +8,16 @@ import "./App.css";
 import { AmatechInfo } from "./components/AmatechInfo";
 import { Events } from "./components/Events";
 import { Hobby } from "./components/Hobby";
-import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 
 const App = () => {
   const [isFlip, setIsFlip] = useState(false);
-  const [isLoading, setIsLoading] = useState(true);
 
   const handleClick = () => {
     setIsFlip(!isFlip);
   };
 
-  useEffect(() => {
-    const delay = 3000;
-
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, delay);
-
-    return () => {
-      clearTimeout(timer);
-    };
-  }, []);
-
   return (
     <>
-      {isLoading ? (
-        <>
-          <div className="loading">
-            <ClimbingBoxLoader color={"#fff"} loading={true} size={20} />
-          </div>
-        </>
-      ) : (
         <main className="main">
           <ReactCardFlip isFlipped={isFlip} flipDirection="horizontal">
             {/* 個人の名刺 */}
@@ -91,7 +70,6 @@ const App = () => {
             </div>
           </ReactCardFlip>
         </main>
-      )}
     </>
   );
 };
