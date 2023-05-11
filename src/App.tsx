@@ -39,7 +39,7 @@ const App = () => {
                 <Footer
                   twitterLink="https://twitter.com/kitsune_yk"
                   githubLink="https://github.com/yk-mt12"
-                  instagramLink="#"
+                  instagramLink="https://instagram.com/kitsune_yk"
                   linkedinLink="https://www.linkedin.com/in/kitune1247/"
                 />
               </section>
@@ -63,8 +63,6 @@ const App = () => {
                 <Footer
                   twitterLink="https://twitter.com/amatech1006"
                   githubLink="https://github.com/amatech-repo"
-                  instagramLink="#"
-                  linkedinLink="#"
                 />
               </section>
             </div>
