@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import ReactCardFlip from "react-card-flip";
 import { Footer } from "./components/Footer";
 import { Interest } from "./components/Interest";
