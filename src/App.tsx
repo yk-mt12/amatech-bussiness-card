@@ -39,7 +39,7 @@ const App = () => {
                 <Footer
                   twitterLink="https://twitter.com/kitsune_yk"
                   githubLink="https://github.com/yk-mt12"
-                  instagramLink="https://instagram.com/kitsune_yk"
+                  instagramLink="https://www.instagram.com/kitsune_yk"
                   linkedinLink="https://www.linkedin.com/in/kitune1247/"
                 />
               </section>
