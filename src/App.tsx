@@ -34,7 +34,7 @@ const App = () => {
                   aboutText="京都産業大学4年生. Webフロントエンドエンジニア. UI/UXデザインに興味があります. 本日はよろしくお願いします！
             "
                 />
-                <Hobby hobbyText="スプラ. アニメ. 映画. カメラ. フットサル. ドリップコーヒー." />
+                <Hobby hobbyText="スプラ. アニメ. カメラ. フットサル. ドリップコーヒー. 楽しいことや面白いことを見つけることが好きです！" />
                 <Interest interestText="Webフロントエンド. UI/UX. SNSマーケティング. Next.js. React. React Native. TypeScript. Tailwind CSS. Firebase. " />
                 <Footer
                   twitterLink="https://twitter.com/kitsune_yk"
