@@ -24,7 +24,7 @@ const App = () => {
             <div className="front" onClick={() => handleClick()}>
               <section className="main__section">
                 <Info
-                  name="Yuki Matsuishi"
+                  name="kitsune"
                   label="あまてく 代表"
                   knowMoreLink="https://kitsune-blog.tokyo/about"
                   mail="kitsune1247@gmail.com"
